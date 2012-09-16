@@ -30,5 +30,16 @@ TARGET =
 DEPENDPATH += . src/appContainer
 INCLUDEPATH += .
 
+# QT MODULES
+QT += webkit \
+      network
+
+# Resources
+RESOURCES += qExpressions.qrc
+
 # Input
-SOURCES += src/appContainer/main.cpp
+SOURCES += src/appContainer/main.cpp \
+           src/appContainer/QExpressionsView.cpp
+
+# Headers
+HEADERS += src/appContainer/QExpressionsView.h

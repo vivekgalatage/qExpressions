@@ -27,11 +27,17 @@
  *  either expressed or implied, of the FreeBSD Project.
  */
 
+#include "QExpressionsView.h"
+
 #include <QApplication>
 
 int main(int argc, char* argv[])
 {
     QApplication appQExpression(argc, argv);
+
+    QExpressionsView appView;
+
+    appView.showMaximized();
 
     return appQExpression.exec();
 }
