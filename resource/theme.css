@@ -1,0 +1,10 @@
+input {
+    background-color: red;
+    font: verdana 16px;
+    font-weight: bold;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
