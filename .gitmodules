@@ -1,0 +1,3 @@
+[submodule "src/3rd_party/qtwebsocket"]
+	path = src/3rd_party/qtwebsocket
+	url = https://git.gitorious.org/qtwebsocket/qtwebsocket.git
